@@ -8,7 +8,7 @@ import Link from "next/link";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useEffect } from "react";
 
-export default function Home({ params }: { params: { locale: string } }) {
+export default function Home() {
   const locale = useLocale();
   const t = useTranslations("Home");
 
