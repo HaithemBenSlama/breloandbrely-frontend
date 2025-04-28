@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 100% 97%; /* #fff2f2 - very light pink */
+    --foreground: 359 60% 35%; /* #d6383b - deep red */
+    --card: 0 100% 97%; /* #fff2f2 - very light pink */
+    --card-foreground: 359 60% 35%; /* #d6383b - deep red */
+    --popover: 0 100% 97%; /* #fff2f2 - very light pink */
+    --popover-foreground: 359 60% 35%; /* #d6383b - deep red */
+    --primary: 359 60% 35%; /* #d6383b - deep red */
+    --primary-foreground: 0 100% 97%; /* #fff2f2 - very light pink */
+    --secondary: 5 30% 100%; /* #f0544c - bright red */
+    --secondary-foreground: 0 0% 0%; /* #fff2f2 - very light pink */
+    --muted: 3 66% 87%; /* #ff6e61 - coral */
+    --muted-foreground: 9 100% 78%; /* #ff9c8f - light coral */
+    --accent: 5 46% 97%; /* #ffb9a3 - pale coral */
+    --accent-foreground: 359 60% 35%; /* #d6383b - deep red */
+    --destructive: 0 84.2% 60.2%; /* standard red for destructive */
+    --destructive-foreground: 0 0% 0%; /* #fff2f2 - very light pink */
+    --border: 3 66% 87%; /* #ff6e61 - coral */
+    --input: 3 66% 87%; /* #ff6e61 - coral */
+    --ring: 359 60% 35%; /* #d6383b - deep red */
+    --chart-1: 359 60% 35%; /* #d6383b - deep red */
+    --chart-2: 5 30% 100%; /* #f0544c - bright red */
+    --chart-3: 3 66% 87%; /* #ff6e61 - coral */
+    --chart-4: 9 100% 78%; /* #ff9c8f - light coral */
+    --chart-5: 5 46% 97%; /* #ffb9a3 - pale coral */
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 359 68% 13%; /* #370b0c - very dark red */
+    --foreground: 14 13% 95%; /* #ff8863 - light coral/orange */
+    --card: 359 68% 13%; /* #370b0c - very dark red */
+    --card-foreground: 14 13% 95%; /* #ff8863 - light coral/orange */
+    --popover: 359 68% 13%; /* #370b0c - very dark red */
+    --popover-foreground: 14°, 13%, 95%; /* #ff8863 - light coral/orange */
+    --primary: 0 100% 97%; /* #730f0a - dark red */
+    --primary-foreground: 359 68% 5%; /* #ff8863 - light coral/orange */
+    --secondary: 7 100% 56%; /* #ff3321 - bright red/orange */
+    --secondary-foreground: 359 68% 13%; /* #370b0c - very dark red */
+    --muted: 4 85% 25%; /* #730f0a - dark red */
+    --muted-foreground: 9 100% 66%; /* #ff644f - medium coral */
+    --accent: 0 52% 64%; /* #730f0a - dark red */
+    --accent-foreground: 0 0% 0%; /* #ff8863 - light coral/orange */
+    --destructive: 0 62.8% 30.6%; /* standard darker red for destructive */
+    --destructive-foreground: 14 13% 95%; /* #ff8863 - light coral/orange */
+    --border: 4 85% 25%; /* #730f0a - dark red */
+    --input: 4 85% 25%; /* #730f0a - dark red */
+    --ring: 7 100% 56%; /* #ff3321 - bright red/orange */
+    --chart-1: 359 68% 13%; /* #370b0c - very dark red */
+    --chart-2: 4 85% 25%; /* #730f0a - dark red */
+    --chart-3: 7 100% 56%; /* #ff3321 - bright red/orange */
+    --chart-4: 9 100% 66%; /* #ff644f - medium coral */
+    --chart-5: 14 13% 95%; /* #ff8863 - light coral/orange */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
