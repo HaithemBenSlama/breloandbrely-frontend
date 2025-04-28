@@ -1,12 +1,12 @@
 {
   "Home": {
     "women": {
-      "title": "Dans chaque détail, votre beauté parle d'elle-même... Avec nous, elle brille encore plus. Réservez votre rendez-vous avec des expertes qui vous traitent comme une reine. Une touche d'amour, une touche d'élégance, et une beauté naturelle qui se manifeste dans chaque mouvement. Faites de chaque jour une nouvelle occasion de briller et d'éblouir.",
-      "button": "Commencez votre voyage avec nous"
+      "title": "Dans chaque détail, ta beauté parle d'elle-même... avec nous, elle se magnifie. Réserve ton rendez-vous avec des expertes qui prendront soin de toi comme une reine. Une touche d'amour et une beauté naturelle qui se voit dans chaque geste.",
+      "button": "Commence ton voyage avec nous"
     },
     "men": {
-      "title": "Dans un monde en mouvement rapide, restez toujours élégant. Réservez votre rendez-vous avec un barbier qui comprend votre style et l'élève. Précision dans le service, élégance dans le toucher, et une expérience qui parle pour vous dès le premier regard. Avec nous, votre style n'est pas qu'une simple coupe de cheveux - c'est une histoire que vous racontez au monde.",
-      "button": "Découvrez votre nouveau style"
+      "title": "Dans un monde rapide, reste toujours élégant. Réserve ton rendez-vous avec un barbier qui comprend ton style et l'améliore. Précision dans le service, élégance dans le geste, et une expertise qui parle dès le premier regard.",
+      "button": "Découvre ton nouveau style"
     }
   }
 }

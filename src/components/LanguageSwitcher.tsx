@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 const languages = [
   {
     code: "ar-TN",
-    name: "العربية",
+    name: "تونسي",
     flagPath: "/flags/ar-TN.svg",
   },
   {
@@ -44,7 +44,7 @@ export function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="flex items-center gap-2">
+        <Button variant="secondary" className="flex items-center gap-2">
           <Image
             src={currentLanguage.flagPath}
             alt={`${currentLanguage.name} flag`}
