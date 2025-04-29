@@ -37,10 +37,10 @@ export default function Home() {
 
       {/* Main Logo - Hidden on mobile, shown after delay on desktop */}
       {showLogo && (
-        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20 hidden md:block">
+        <div className="mt-5 absolute top-4 left-1/2 transform -translate-x-1/2 z-20 hidden md:block">
           <div className="w-[400px] h-[200px]">
             <Image
-              src="/logo_breloandbrely_dark.png"
+              src="/logo_breloandbrely.svg"
               alt="Brelo and Brely Logo"
               width={400}
               height={200}
@@ -82,7 +82,7 @@ export default function Home() {
           >
             <div className="mb-4 md:mb-6">
               <Image
-                src="/logo_brelo_dark.png"
+                src="/logo_brelo.svg"
                 alt="Brelo Logo"
                 width={300}
                 height={150}
@@ -105,7 +105,7 @@ export default function Home() {
             >
               <Button
                 variant="outline"
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-amber-900 transition-all duration-300 text-sm md:text-base"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-amber-500 transition-all duration-300 text-sm md:text-base"
               >
                 {t("men.button")}
               </Button>
@@ -146,7 +146,7 @@ export default function Home() {
           >
             <div className="mb-4 md:mb-6">
               <Image
-                src="/logo_brely_dark.png"
+                src="/logo_brely.svg"
                 alt="Brely Logo"
                 width={300}
                 height={150}
@@ -169,7 +169,7 @@ export default function Home() {
             >
               <Button
                 variant="outline"
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-rose-900 transition-all duration-300 text-sm md:text-base"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-rose-500 transition-all duration-300 text-sm md:text-base"
               >
                 {t("women.button")}
               </Button>
